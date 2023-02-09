@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Página de practica con Bootstrap" />
+    <meta name="keywords" content="panaderia,cocu,panes,medialunas,productos" />
+    <meta name="author" content="César Luciano Angeleri" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Panadería Cocu</title>
+</head>
+<body>
+    <header class="navbar bg-dark navbar-dark navbar-expand-lg">
+        <div class="container">
+            <a href="index.html" class="navbar-brand"><img src="./img/cocu_logo-450.png" alt="Logo Panadería Cocu"
+                    width="90px" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link active">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./pages/historia.html" class="nav-link">Historia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./pages/productos.html" class="nav-link">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./pages/contacto.html" class="nav-link">Contactos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="bannerPrincipal" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#bannerPrincipal" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#bannerPrincipal" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#bannerPrincipal" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#bannerPrincipal" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./img/slider_201603_lemonpie.jpg" class="d-block w-100 banner-Principal" alt="Lemon Pie">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/slider_201603_painchoco.jpg" class="d-block w-100 banner-Principal" alt="Pain au Chocolat">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/slider_201603_sandwich.jpg" class="d-block w-100 banner-Principal" alt="Sandwich">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/slider_201603_painchoco.jpg" class="d-block w-100 banner-Principal" alt="Pain au Chocolat">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#bannerPrincipal" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Atrás</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#bannerPrincipal" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Adelante</span>
+            </button>
+        </section>
+        <section class="container">
+            <h2 class="display-1 text-center">Sobre nosotros</h2>
+            <hr>
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dolores odit soluta saepe voluptates a aliquam ut hic! Culpa neque, ab consectetur cupiditate repellat, maxime enim perspiciatis ipsum ad blanditiis ducimus placeat earum possimus quos expedita doloribus voluptatibus quibusdam reprehenderit asperiores nesciunt commodi? Iste, sed consequuntur. Autem placeat nam magnam laborum laudantium impedit, earum itaque? Officiis, placeat. Corrupti, earum. Officia esse quod obcaecati corrupti quas facilis neque veritatis nostrum autem cum voluptate ad, saepe quia magni accusantium. Assumenda obcaecati fugit odit sapiente nihil, hic consectetur doloremque veritatis sunt nam! Cumque aperiam architecto eos? Quisquam accusamus voluptatem nisi quibusdam praesentium soluta.</p>
+            </article>
+        </section>
+        <section class="container">
+            <aside class="card">
+                <div class="card-header">
+                    <h4>Atención al cliente</h4>
+                </div>
+                <div class="card-body">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt debitis reprehenderit aliquam accusamus aliquid modi quibusdam! Ea ipsum, maxime commodi reprehenderit asperiores non eaque consectetur ipsam dolorum et accusamus eum?</p>
+                </div>
+                
+            </aside>
+            <aside class="card">
+                <div class="card-header">
+                    <h4>Atención al cliente</h4>
+                </div>
+                <div class="card-body">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt debitis reprehenderit aliquam accusamus aliquid modi quibusdam! Ea ipsum, maxime commodi reprehenderit asperiores non eaque consectetur ipsam dolorum et accusamus eum?</p>
+                </div>
+            </aside>
+            <aside class="card">
+                <div class="card-header">
+                    <h4>Atención al cliente</h4>
+                </div>
+                <div class="card-body">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt debitis reprehenderit aliquam accusamus aliquid modi quibusdam! Ea ipsum, maxime commodi reprehenderit asperiores non eaque consectetur ipsam dolorum et accusamus eum?</p>
+                </div>
+            </aside>
+        </section>
+        <section class="container">
+            <h2 class="display-1 text-center">Sobre nosotros</h2>
+            <hr>
+            <aside><img src="./img/dulce.png" alt="Pan dulce"></aside>
+            <aside><img src="./img/panyfactura.png" alt=""></aside>
+            <aside><img src="./img/salado.png" alt=""></aside>
+
+        </section>
+
+    </main>
+    <footer class="bg-dark text-secondary py-4">
+        <section class="container">
+            <div class="row">
+                <aside class="col-md-4 text-center">
+                    <img src="./img/cocu_logo-450.png" alt="Logo Panadería Cocu" width="90px" />
+                </aside>
+                <aside class="col-md-4">
+                    <h5>Horarios de Atención</h5>
+                    <ul>
+                        <li>Lunes a Viernes de 8 a 21 hs</li>
+                        <li>Sábado de 8 a 19 hs</li>
+                    </ul>
+                </aside>
+                <aside class="col-md-4">
+                    <h5>Seguinos en nuestras redes</h5>
+                    <div class="text-center text-md-start">
+                        <a href="./pages/error404.html" class="link-secondary mx-2"><i class="bi bi-facebook fs-4"></i></a>
+                        <a href="./pages/error404.html" class="link-secondary mx-2"><i class="bi bi-whatsapp fs-4"></i></a>
+                        <a href="./pages/error404.html" class="link-secondary mx-2"><i class="bi bi-instagram fs-4"></i></a>
+                    </div>
+                </aside>
+            </div>
+        </section>
+    </footer>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+</html>
